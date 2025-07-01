@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_spare_parts_management_manufacturer,access_vehicle_manufacturer,model_vehicle_manufacturer,,1,1,1,1
+access_spare_parts_management_info,access_vehicle_info,model_vehicle_info,,1,1,1,1
+access_spare_parts_management_exist_product,access.add.products.wizard,model_add_products_wizard,,1,1,1,1
+access_spare_part,access_spare_part,model_spare_part,,1,1,1,1
+
