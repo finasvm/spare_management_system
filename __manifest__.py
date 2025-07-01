@@ -7,9 +7,7 @@
     'depends': ['product'],
     'data': [
         'security/ir.model.access.csv',
-        # 'views/vehicle_manufacturer_view.xml',
         'views/vehicle_view.xml',
-        # 'wizard/add_excisting_products_wizard.xml',
         "views/menu.xml"
     ],
     'installable': True,
