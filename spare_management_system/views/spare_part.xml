@@ -23,12 +23,30 @@
             <form string="Manufacturer">
                 <sheet>
                     <group>
-                       <field name="part_number"/>
-                <field name="part_name"/>
-                <field name="description"/>
-                                <field name="brand"/>
-
+                        <field name="image" widget="image" style="width:100px; height:100px"></field>
                     </group>
+<group>
+                    <group>
+                        <field name="part_number"/>
+                        <field name="part_name"/>
+                        <field name="description"/>
+                        <field name="brand"/>
+                        <field name="model_name"/>
+                    </group>
+                        <group>
+
+                        <field name="unit_of_measure"/>
+
+                        <field name="cost_price"/>
+                                                <field name="sale_price"/>
+
+                                                <field name="whole_sale_price"/>
+                        </group>
+                        <chatter />
+
+
+
+</group>
                 </sheet>
             </form>
         </field>
